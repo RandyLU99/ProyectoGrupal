@@ -55,4 +55,9 @@ Entre las características que ofrece Glary Utilities destacan las siguientes:
 
 - Herramientas estándar de Windows: Proporciona acceso directo a las funciones predeterminadas de Windows y que son útiles.
 
+Una de las principales características de Glary Utilities, es que no necesitamos tener muchos conocimientos sobre mantenimiento de sistemas y saber controlar todas las opciones avanzadas, ya que desde la funcionalidad “Mantenimiento en 1-Click” sólo tendremos que pulsar sobre el botón ‘Buscar problemas’ y el programa lo hará todo automáticamente. Una vez encontrados todos los errores y tras ver los cambios que se pretenden realizar, pulsaremos sobre el botón “Reparar problemas” y el programa comenzará a poner solución a cada incidencia.
+
+![Image text](/Imagenes/caracteristica1.jpg)
+
+![Image text](/Imagenes/caracteristica2.jpg)
 
