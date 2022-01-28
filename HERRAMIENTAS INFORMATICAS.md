@@ -61,3 +61,24 @@ Una de las principales características de Glary Utilities, es que no necesitamo
 
 ![Image text](/Imagenes/caracteristica2.jpg)
 
+# Funciones de Glary Utilities
+
+<p style='text-align: justify;'> La funcion de Glary Utilities es velar por el buen funcionamiento de nuestro equipo. Para ello incluye casi 40 herramientas de limpieza, optimización y seguridad que ayudarán a mejorar el rendimiento de nuestro sistema sea cual sea su estado actual. Glary Utilities hace las siguientes funciones:  </p>
+ 
+- Eliminar archivos temporales y datos basura.
+- Limpiar el registro de sistema.
+- Corregir errores en el registro. 
+- Acelerar el arranque. 
+- Mejorar el uso de la memoria RAM.
+- Analizar posibles errores físicos en el disco duro. 
+- Proteger la privacidad de nuestros documentos.
+- Desinstalar cualquier aplicación definitivamente.
+<p style='text-align: justify;'> Esta suite distingue sus herramientas avanzadas en 11 módulos distintos, cada uno enfocado a una funcionalidad específica, así que es posible intentar solucionar cualquier problema de nuestro PC si sabemos exactamente de dónde proviene, por lo que además de ser práctico, la suite dispone de herramientas avanzadas. Te explicamos cómo utilizar todas sus opciones.
+ </p>
+
+## Administrador de Inicio 
+
+<p style='text-align: justify;'> Sirve para ver las aplicaciones que se están ejecutando en el PC. </p>
+
+![Image text](/Imagenes/Adm_Inicio.jpg)
+
