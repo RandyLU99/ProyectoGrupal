@@ -126,3 +126,26 @@ Sirve para ver las actualizaciones de las versiones que están disponibles para 
 El asistente de navegador busca extensiones de navegadores, plugin, cookie, para limpiarlo ya que estos hacen que el navegar sea lento al momento de navegar.
 
 ![Image text](/Imagenes/Asistente_de_Navegador.jpg)
+
+## Borrador de Rastros
+<p style='text-align: justify;'> Sirve para eliminar todos los rastros de basura de Windows, Explorador de Internet, Complementos, Google Chrome y Microsoft Edge. </p>
+
+![Image text](/Imagenes/Borrador_Rastros.jpg)
+<p style='text-align: justify;'> Glary Utilities También cuenta con otras funciones adicionales como las que podemos observar en esta imagen. </p>
+
+![Image text](/Imagenes/Otras_Funciones.jpg)
+
+## Conclusión
+- <p style='text-align: justify;'> Glary Utilities es una aplicación freeware que actúa como el limpiador de disco, protector de la privacidad y acelerador de rendimiento, y que ofrece una rica colección de herramientas para la eliminación de errores de registro, optimizar la velocidad de Internet, la protección de los datos confidenciales y mejorar el rendimiento de su sistema. Sigue siendo fiel a su reputación profesional para el mantenimiento de su PC y pudiendo ser usado en usuarios avanzados como noveles.</p>
+
+- <p style='text-align: justify;'> También es el más confiable cuando se trata de rendimiento y estabilidad. Puedes descubrirlo por ti mismo. Es por eso que muchos usuarios de PC recomiendan esta aplicación. </p>
+
+## Instalador de Glary Utilities
+- Para descargar Glary Utilites hacemos clic en el enlace adjunto.
+http://www.infospyware.com/herramientas/glary-utilities/
+
+- Luego hacemos clic en Descargar Programa tal como está en la Imagen.
+
+![Image text](/Imagenes/Para_descargar.jpg)
+
+
