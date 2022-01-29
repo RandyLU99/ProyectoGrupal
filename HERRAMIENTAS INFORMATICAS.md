@@ -105,3 +105,22 @@ Como el nombre bien lo sugiere, nos posibilita controlar el menú contextual, si
 Este parámetro es sencillo, como el nombre lo indica su función es analizar la capacidad de nuestro disco duro y a su vez los resultados que nos arroja es la cantidad de espacio libre que tenemos disponible. 
 
 ![Image text](/Imagenes/AEDisco.jpg)
+
+## Administrador de Procesos
+Es para ver todos los procesos que se están corriendo en ese momento.
+
+![Image text](/Imagenes/Administrador_de_Procesos.jpg)
+
+## Administrador de desinstalación
+Este usted puede selección que aplicación quiere desinstalar 
+
+![Image text](/Imagenes/Administrador_de_desinstalación.jpg)
+
+## Actualización de Software
+Sirve para ver las actualizaciones de las versiones que están disponibles para la instalación en el PC.
+
+![Image text](/Imagenes/Actualización_de_Software.jpg)
+
+## Asistente de Navegador
+
+![Image text](/Imagenes/Asistente_de_Navegador.jpg)
