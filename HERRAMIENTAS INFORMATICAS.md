@@ -107,20 +107,22 @@ Este parámetro es sencillo, como el nombre lo indica su función es analizar la
 ![Image text](/Imagenes/AEDisco.jpg)
 
 ## Administrador de Procesos
-Es para ver todos los procesos que se están corriendo en ese momento.
+Es para ver todos los procesos que se están corriendo en ese momento dentro de nuestra pc como la memoria y el cpu
 
 ![Image text](/Imagenes/Administrador_de_Procesos.jpg)
 
 ## Administrador de desinstalación
-Este usted puede selección que aplicación quiere desinstalar 
+Este usted puede selección que aplicación quiere desinstalar de una forma rapida y segura sin dejar rastros. 
 
 ![Image text](/Imagenes/Administrador_de_desinstalación.jpg)
 
 ## Actualización de Software
-Sirve para ver las actualizaciones de las versiones que están disponibles para la instalación en el PC.
+Sirve para ver las actualizaciones de las versiones que están disponibles para la instalación en el PC. así mismo también busca dentro de nuestro sistema operativo los programas que estén desactualizados para proceder a actualizar.
 
 ![Image text](/Imagenes/Actualización_de_Software.jpg)
 
 ## Asistente de Navegador
+
+El asistente de navegador busca extensiones de navegadores, plugin, cookie, para limpiarlo ya que estos hacen que el navegar sea lento al momento de navegar.
 
 ![Image text](/Imagenes/Asistente_de_Navegador.jpg)
