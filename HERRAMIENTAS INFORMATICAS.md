@@ -82,3 +82,26 @@ Una de las principales características de Glary Utilities, es que no necesitamo
 
 ![Image text](/Imagenes/Adm_Inicio.jpg)
 
+## Reparación de registro
+
+Un registro de los ordenadores es uno de los aspectos más importantes Windows. Registro que contiene información sobre casi todo instalado y en ejecución en el ordenador, así como la configuración de la computadora necesita para mantener la operación. Sin embargo, los problemas pueden ocurrir dentro del registro. Los archivos por lotes, así como duplicados pueden aparecer a partir de la instalación de un programa varias veces. Debido a esto lo mejor es borrar los archivos por lotes del registro para borrar un valioso espacio en disco duro y mantener el equipo funcionando sin problemas.
+
+![Image text](/Imagenes/RRegistro.jpg)
+
+## Limpiar el Disco
+
+Mediante esta opción, el programa que se está utilizando nos sirve para limpiar archivos innecesarios que se encuentran en nuestro ordenador, de esta manera liberamos espacio y optimizamos mejor el sistema.
+
+![Image text](/Imagenes/LimpiarDisco.jpg)
+
+## Administrador de Menú de Contexto
+
+Como el nombre bien lo sugiere, nos posibilita controlar el menú contextual, si seleccionamos esta opción se nos abrirá la ventana del Administrador de Menú de Contexto, lo que nos facilita el control de habilitar o deshabilitar estas opciones. 
+
+![Image text](/Imagenes/AMContexto.jpg)
+
+## Analizador de Espacio del Disco Duro 
+
+Este parámetro es sencillo, como el nombre lo indica su función es analizar la capacidad de nuestro disco duro y a su vez los resultados que nos arroja es la cantidad de espacio libre que tenemos disponible. 
+
+![Image text](/Imagenes/AEDisco.jpg)
