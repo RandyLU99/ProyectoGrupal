@@ -122,4 +122,257 @@ programas que interactúan con circuitos electrónicos.
 
 Por lo general, los microcontroladores tienen entradas y salidas digitales,entradas y salidas analógicas y entradas y salidas para protocolos de comunicación. Un Arduino es una placa que cuenta con todos los elementos necesarios para conectar periféricos a las entradas y salidas de un microcontrolador, es una placa impresa con todos los componentes necesarios para el micro funcionamiento y se comunica con la computadora a través de comunicación serial. 
 
+## SCRIPT 
+
+El código que se utilizó para el proyecto fue el siguiente:
+
+#include <Servo.h>
+Servo servo1;
+Servo servo2;
+Servo servo3;
+Servo servo4;
+Servo servo5;
+int pinservo1 = 2;
+int pinservo2 = 3;
+int pinservo3 = 4;
+int pinservo4 = 5;
+int pinservo5 = 6;
+
+void abrir() {
+  servo1.write(0);
+  servo2.write(0);
+  servo3.write(0);
+  servo4.write(0);
+  servo5.write(0);
+}
+void indice(char op) { //con 1 abre y con 2 cierra
+  switch (op) {
+    case 1:
+      servo1.write(0);
+      break;
+    case 2:
+      servo1.write(180);
+      break;
+  }
+}
+
+void corazon(char op) {
+  switch (op) {
+    case 1:
+      servo2.write(0);
+      break;
+    case 2:
+      servo2.write(180);
+      break;
+  }
+}
+
+void anular(char op) {
+  switch (op) {
+    case 1:
+      servo3.write(0);
+      break;
+    case 2:
+      servo3.write(180);
+      break;
+  }
+}
+void menique(char op) {
+  switch (op) {
+    case 1:
+      servo4.write(0);
+      break;
+    case 2:
+      servo4.write(180);
+      break;
+  }
+}
+void gordo(char op) {
+  switch (op) {
+    case 1:
+      servo5.write(0);
+      break;
+    case 2:
+      servo5.write(180);
+      break;
+  }
+}
+void cerrar() {
+  indice(2);
+  corazon(2);
+  anular(2);
+  menique(2);
+  gordo(2);
+}
+void contar() {
+  cerrar(); // en 180
+  delay(1000);
+  indice(1); // en 0
+  delay(1000);
+  corazon(1);
+  delay(1000);
+  anular(1);
+  delay(1000);
+  menique(1);
+  delay(1000);
+  gordo(1);
+  delay(1000);
+}
+
+void regresivo() {
+  abrir(); // en 0 para 5
+  delay(1000);
+  gordo(2); // en 180 para 4
+  delay(1000);
+  menique(2); // para 3
+  delay(1000);
+  anular(2); // para 2
+  delay(1000);
+  corazon(2); // para 1
+  delay(1000);
+  indice(2); // para 0
+  delay(1000);
+}
+void saludo() {
+
+  for (int i = -180; i <= 180; i++) {
+    servo5.write(i); // 1 -- 1º
+    delay(1);
+    servo1.write(i + 36); // 37 --> 1º
+    delay(1);
+    servo2.write(i + 72); // 73 --> 1º
+    delay(1);
+    servo3.write(i + 108); // 109 --> 1º
+    delay(1);
+    servo4.write(i + 144); // 145 --> 1º
+    delay(1);
+  }
+  for (int i = 180; i >= -180; i--) {
+    servo4.write(i);
+    delay(1);
+    servo3.write(i + 36);
+    delay(1);
+    servo2.write(i + 72);
+    delay(1);
+    servo1.write(i + 108);
+    delay(1);
+    servo5.write(i + 144);
+    delay(1);
+  }
+}
+void pistola() {
+  indice(1);
+  corazon(2);
+  anular(2);
+  menique(2);
+  gordo(1);
+  delay(800);
+  gordo(2);
+  delay(800);
+  gordo(1);
+  delay(800);
+  gordo(2);
+  delay(800);
+  gordo(1);
+}
+void sigsag() {
+  indice(1);
+  corazon(2);
+  anular(1);
+  menique(2);
+  gordo(2);
+  delay(800);
+  indice(2);
+  corazon(1);
+  anular(2);
+  menique(1);
+  gordo(1);
+}
+void setup() {
+  servo1.attach(pinservo1, 610, 2550);
+  servo2.attach(pinservo2, 670, 2540);
+  servo3.attach(pinservo3, 660, 2600);
+  servo4.attach(pinservo4, 660, 2600);
+  servo5.attach(pinservo5, 660, 2600);
+  pinMode(pinservo1, OUTPUT);
+  pinMode(pinservo2, OUTPUT);
+  pinMode(pinservo3, OUTPUT);
+  pinMode(pinservo4, OUTPUT);
+  pinMode(pinservo5, OUTPUT);
+  Serial.begin(9600);
+  abrir();
+}
+void loop() {
+  cerrar();
+  delay(800);
+  abrir();
+  delay(800);
+  contar();
+  delay(800);
+  regresivo();
+  delay(800);
+  saludo();
+  delay(800);
+  pistola();
+  delay(800);
+  sigsag();
+  delay(800);
+}
+
+## SIMULACIÓN 
+
+## PROTEUS 
+
+Para la primera parte de la simulación, utilizamos el programa Proteus. 
+
+El esquema quedó planteado de la siguiente manera: 
+
+Cada servomotor representa un dedo de la mano derecha, empezando desde el meñique(Primer motor parte izquierda) y así sucesivamente con cada uno de los dedos. 
+
+
+
+![Image text](/Imagenes/simulacion.jpg)
+
+Al momento de iniciar la simulación, se puede observar que los servomotores presentan movimiento, lo que nos indica que el código está trabajando de una manera correcta. 
+
+![Image text](/Imagenes/simulado.jpg)
+
+## TINKERCAD 
+
+Esta herramienta nos permite simular como si se tuviera un ProtoBoard, aparte de probar el código y verificar que todo esté funcionando correctamente, Tinkercad nos da la posibilidad de conectar los componentes como si se lo haría de una forma física, dicho lo anterior, la primera parte sin simular quedó así: 
+
+![Image text](/Imagenes/Tinkercad.jpg)
+
+En la parte derecha, se puede observar que el código implementado al Arduino, es el mismo que se presentó anteriormente. 
+
+![Image text](/Imagenes/codigotinkercad.jpg)
+
+Al momento en el que empezamos la simulación, se observa que los servomotores presentan movimiento, lo que nos indica que el código está funcionando sin ningún problema y que las conexiones adecuadas son las correctas. 
+
+![Image text](/Imagenes/simtinker.jpg)
+
+La idea del trabajo es la siguiente: 
+
+![Image text](/Imagenes/explicacion.jpg)
+
+En cada servomotor, se coloca hilos nailon a cada dedo (La mano se realizará en un pedazo de cartón, para poder simular las falanges de los dedos) Al momento en que se mueve un servomotor, los dedos se moverán en un patrón determinado que se programó anteriormente, el prototipo básicamente es como se muestra en la imagen, todos los dedos se cierran y se abren, los hilos simulan el movimiento de los tendones de la mano. 
+
+## CONCLUSIÓN 
+
+Este proyecto de investigación tuvo como propósito el desarrollo de una Mano Robótica que permita el aprendizaje integral de programación en Arduino. El control electrónico se efectuó a través de una tarjeta Arduino, que genera las señales para controlar los servomotores responsables del movimiento.
+
+## RECOMENDACIONES 
+
+Al momento en el que estemos programando, tenemos que tener en cuenta una lógica adecuada para el script, esto nos garantiza que nuestro proyecto se realice correctamente
+
+Además de esto, tener en cuenta las conexiones de los componentes, tanto en los servomotores y como en las entradas del Arduino, ya que, si se realiza alguna conexión de una forma errónea, nuestro circuito puede fallar. 
+
+
+
+
+
+
+
+
+
 
