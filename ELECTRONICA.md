@@ -1,15 +1,18 @@
 ![Image text](/Imagenes/Portada.jpg)
 
-## TEMA 
+# TEMA 
 
-Creación de Mano Robótica programada mediante Arduino. 
+## Creación de Mano Robótica programada mediante Arduino.
+ ![Image text](/Imagenes/Mano_Robotica.jpg)
 
 ## INTRODUCCIÓN 
-
-
+<p style='text-align: justify;'> En este trabajo se plantea el desarrollo de una mano robótica como prototipo didáctico, a través del cual se podrá acceder de manera interactiva a las temáticas propias de la programación en Arduino. De esta forma se espera incrementar y fortalecer el área de tecnología, a la vez que se mejoran las competencias de programación. A continuación, se presenta el planteamiento del problema que dio origen al trabajo presente.  
+En este trabajo se presenta el desarrollo de una mano robótica didáctica, indicando en primer lugar cuáles son las partes que conforman el prototipo. El control electrónico se efectuó a través de una tarjeta Arduino, la cual permite leer el estado de los sensores, flexo resistencias en este caso, a la vez que genera las señales para controlar los servomotores responsables del movimiento. La versión final se construyó con materiales disponibles en casa, dando como resultado un prototipo didáctico que puede ser utilizado como herramienta motivadora para el aprendizaje de programación en Arduino. 
+ La implementación se acompañó de varias reuniones en online y ayudas didácticas, cuyo propósito consistía en la explicación teórica de los conceptos que se iban a trabajar y posteriormente la aplicación de estos sobre la mano robótica. 
+ </p>
 
 ## PROBLEMÁTICA 
-
+<p style='text-align: justify;'> GConstruir una mano robótica con control de movimiento con un pedazo de cartón diseñando una mano, mediante servos de 5 o 6 grados de libertad cuales transmiten el movimiento a través de hilos de nailon a cada uno de los dedos, haciendo la función de tendones y músculos de la mano humana real y con un Arduino uno utilizándolo para su programación, los cuales que nos ayudarán para que sea realizado el movimiento de las falanges de los dedos robóticos. También se colocará en la parte trasera cinta elástica para que los dedos retrocedieran.  </p>
 
 ## OBJETIVOS GENERALES 
 
