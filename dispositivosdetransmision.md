@@ -66,7 +66,23 @@ Sin embargo, hasta ahora nunca ha superado las dimensiones de una ciudad. Las mi
 - Son redes de alto rendimiento.
 - Son utilizadas por los proveedores de servicio precisamente por soportar todas las tecnologías que se mencionan. 
 
-<p style='text-align: justify;'> </p>
+## COMPONENTES DE UNA RED DE ÁREA METROPOLITANA
+
+### Puestos de trabajo.
+- Estaciones de trabajo.
+- Ordenadores centrales.
+- PCs o compatibles.
+### Nodos de red.
+Sus principales funciones son:
+- Almacenamiento temporal de información a transmitir hasta que el canal de transmisión se libere.
+- Filtrado de la información circulante por la red, aceptando sólo la propia.
+- Conversión de la información de la red, en serie, a información del puesto de trabajo, octetos.
+- Obtención de los derechos de acceso al medio de transmisión.
+### Sistema de cableado.
+Está constituido por el cable utilizado para conectar entre sí los nodos de red y los puestos de trabajo.
+### Protocolos de comunicación.
+
+<p style='text-align: justify;'>Son las reglas y procedimientos utilizados en una red para establecer la comunicación entre nodos. En los protocolos se definen distintos niveles de comunicación. Así, las redes de área metropolitana soportan el nivel 1 y parte del nivel 2, dando servicio a los protocolos de nivel superior que siguen la jerarquía OSI para sistemas abiertos. </p>
 
 
 
