@@ -43,3 +43,32 @@ Al margen de que puedan hacerse por cable estructurado, o por vía inalámbrica,
 
 
 Parte Mauricio 
+
+## Redes MAN
+<p style='text-align: justify;'> MAN es la sigla de Metropolitan Area Network, que puede traducirse como Red de Área Metropolitana. Una red MAN es aquella que, a través de una conexión de alta velocidad, ofrece cobertura en una zona geográfica extensa (como una ciudad o un municipio). </p>
+
+![Image text](/Imagenes/Red_MAN.jpg)
+
+<p style='text-align: justify;'> Una MAN está compuesta por computadores o routers conectados entre sí con conexiones de alta velocidad (generalmente cables de fibra óptica).
+Metropolitan Area Network o Red de área metropolitan (MAN). Se puede decir que una Red MAN es el punto intermedio entre lo que es una red LAN y WAM. Específicamente cuando hablamos de Metropolitan Área Network nos referimos a aquellas redes de alta velocidad que son capaces de ofrecer cobertura a una geografía bastante extensa.
+Sin embargo, hasta ahora nunca ha superado las dimensiones de una ciudad. Las mismas pueden llegar a alcanzar velocidades de hasta 10 GB/segundo utilizando cables de fibras óptica.
+ </p>
+
+ ![Image text](/Imagenes/Red_MAN1.jpg)
+
+<p style='text-align: justify;'>Estas redes MAN son comúnmente aplicadas por distintas organizaciones a nivel mundial, en las empresas, oficinas corporativas en los alrededores de las ciudades, entre otras. Las cuales no contienen ningún tipo de elemento de conmutación. Es decir, que ellas desvían los paquetes de información a través de varias líneas de salida potenciales. Además, estas redes pueden llegar a ser públicas o privadas. </p>
+
+## Características Principales de Red MAN
+
+- Son redes que se extienden sobre áreas geográficas de tipo urbano, como una ciudad.
+- Son implementadas por los proveedores de servicio de Internet, que son normalmente los proveedores del servicio telefónico. Las MAN normalmente están basadas en estándares SONET/SDH o WDM, que son estándares de transporte por fibra óptica.
+- Estos estándares soportan tasas de transferencia de varios gigabits (hasta decenas de gigabits).
+- Son redes de alto rendimiento.
+- Son utilizadas por los proveedores de servicio precisamente por soportar todas las tecnologías que se mencionan. 
+
+<p style='text-align: justify;'> </p>
+
+
+
+
+
