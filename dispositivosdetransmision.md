@@ -123,5 +123,68 @@ Está constituido por el cable utilizado para conectar entre sí los nodos de re
 
 - La seguridad es la principal desventaja. Y es que existen algunos programas capaces de capturar paquetes, trabajando con su tarjeta Wi-Fi.
 
+## Red WiFi
+
+<p style='text-align: justify;'>WiFi viene de ‘Wireless Fidelity’, es decir, ‘fidelidad inalámbrica’. Es una tecnología de transmisión de datos inalámbrica utilizada para Internet –principalmente- y que se basa en el estándar 802.11.</p>
+
+![Image text](/Imagenes/Red_WIFI.jpg)
+
+<p style='text-align: justify;'>WiFi, es una tecnología que permite la conexión inalámbrica entre dispositivos electrónicos, ordenadores, smartphones, tablets, televisores, videoconsolas, etc. Wi-Fi es una marca de Wi-Fi Alliance o Alianza Wi-Fi, la organización que promueve dicha tecnología y que se encarga de certificar todos los productos que se ajustan a las normas establecidas de interoperabilidad.</p>
+
+<p style='text-align: justify;'>Tecnología que surgió por la necesidad de establecer una manera de conexión inalámbrica que fuese compatible con distintos dispositivos. Por lo tanto, el objetivo de la Alianza fue diseñar una marca que permitiese fomentar más fácilmente la tecnología inalámbrica y asegurar la compatibilidad entre dispositivos.</p>
+
+## Cómo funciona la conectividad WiFi
+
+<p style='text-align: justify;'>El WiFi se basa en ondas de radio, exactamente igual que la propia radio, la telefonía móvil o la televisión. Por lo tanto, las redes WiFi transmiten información por el aire utilizando ondas de radio.</p>
+
+<p style='text-align: justify;'>Ahora bien, las frecuencias que se utilizan para esta tecnología de conectividad inalámbrica son distintas, concretamente 2,4 GHz hasta el estándar 802.11 n y 5 GHz en 802.11 ac.</p>
+
+## Componentes del WiFi
+
+<p style='text-align: justify;'>En una conexión WiFi tenemos un adaptador inalámbrico en un ordenador –u otro dispositivo- que traduce los datos en forma de señal de radio y, a través de una antena, los transmite ‘por el aire’. Y un router, también inalámbrico, que es el que se encarga de recibir la señal y decodificarla. Y una vez hecho esto, por una conexión física, por cable, a través de Ethernet, envía la información a través de Internet a otros servidores.</p>
+
+![Image text](/Imagenes/WIFI.jpg)
+
+## Tipos de seguridad en conexiones WiFi.
+
+<p style='text-align: justify;'>La seguridad del WiFi es variable, principalmente en función del cifrado que se aplique a las comunicaciones entre el router y los adaptadores inalámbricos. Existen varias opciones, y se pueden dividir entre seguras y no seguras por sus características técnicas:</p>
+
+- WEP (Wired Equivalent Privacy): Este tipo de cifrado nos remonta hasta el año 1999. 
+
+- WPA (WiFi Protected Access): WPA fue la respuesta a los principales fallos y vulnerabilidades de WEP. Las claves usadas por WPA son de 256 bits, a diferencia de los 128 bits usados por WEP.
+
+![Image text](/Imagenes/WEP_WAP.jpg)
+
+- WPA2 la principal diferencia con WPA es el uso del AES, que realiza un cifrado por bloques para permitir claves más largas y seguras y la implementación del CCMP que se trata de un protocolo mejorado de encriptación que sustituye a TKIP.
+
+- WPA3 Incorpora el cifrado de 192 bits en vez de 129 bits, lo que hace que el cifrado sea más seguro y difícil de romper. Esto hace que sea más seguro incluso con contraseñas menos fuertes, por lo tanto, una misma clave es más vulnerable a ataques de fuerza bruta en WPA2 que en WPA3. 
+
+## Ventajas y desventajas de redes WiFi.
+
+### Ventajas.
+
+Entre las principales ventajas que nos ofrece el WIFI, caben destacar:
+
+- Conectividad inalámbrica: Sin duda una de las principales ventajas que nos ofrece el WiFi es que se trata de un tipo de conectividad inalámbrica.
+
+- Comodidad: El hecho de que sea una conectividad inalámbrica no ofrece también una gran comodidad y libertad. Es decir, podremos ir de un lado para otro con nuestro ordenador, tablet o móvil y seguir conectado sin que esto suponga ningún problema. 
+
+- Coste: El no tener que hacer uso de cableado y dispositivos como hubs o similares, hace que una red WiFi tenga un coste mucho menor que las redes cableadas.
+- Compatibilidad: La WiFi Alliance asegura la compatibilidad total entre dispositivos, por lo tanto, permite que podamos utilizar la tecnología WiFi con una compatibilidad total en cualquier parte del mundo.
+ 
+### Desventajas.
+
+- Velocidad: En el caso de usar una conexión WiFi, existen numerosos factores que pueden afectar a la velocidad de nuestra conexión en el dispositivo utilizado para la conexión, algo que con el cable es mucho menos probable salvo que utilicemos longitudes exageradas o cables de muy baja calidad.
+- Latencia: Es otro de los principales problemas con los que nos podemos encontrar en este tipo de conexiones inalámbricas. Las conexiones WiFi son más propensas a sufrir ciertos lags, sobre todo cuando queremos reproducir contenido multimedia en alta resolución. 
+
+- Interferencias: Las redes WiFi pueden verse afectadas por determinadas interferencias, lo cual supondrá un menor rendimiento de las mismas. 
+
+- Microcortes: Todo este tipo de aspectos que pueden influenciar negativamente en una red WiFi pueden provocar ciertos cortes en nuestra conexión. 
+
+
+
+
+
+
 
 
