@@ -27,16 +27,79 @@ Al margen de que puedan hacerse por cable estructurado, o por vía inalámbrica,
 
 - Parte Randy 
 
+## Redes WAN
+
+![Image text](/Imagenes/Wan.jpg)
+
+<p style='text-align: justify;'> Una red de área amplia, o WAN (Wide Area Network en inglés), es una red de computadoras que une e interconecta varias redes de ámbito geográfico menor, por ejemplo, redes de área local, aunque sus miembros no estén todos en una misma ubicación física. Muchas WAN son construidas por organizaciones o empresas para su uso privado, otras son instaladas por los proveedores de Internet (ISP) para proveer conexión a sus clientes. 
+
+<p style='text-align: justify;'>Como una red WAN no conecta ordenadores individuales, sino redes enteras, la tecnología utilizada difiere de los otros tipos de red. Emplea otros protocolos de transmisión y conceptos de dirección.
+
+<p style='text-align: justify;'>Las redes WAN utilizan técnicas y protocolos de transmisión de las capas uno a tres del modelo de referencia OSI. De este modo, una WAN funciona en la capa física (capa 1), la capa de enlace (capa 2) y la capa de red (capa 3).
+Para la transmisión de datos se emplean también las siguientes tecnologías: 
+
+-	X.25 (tecnología más antigua, desde los años 70)
+-	Modo de transferencia asíncrono (ATM) (tecnología antigua)
+-	Multiprotocol Label Switching (IP/MPLS)
+-	Jerarquía digital presiócrona (PDH)
+-	Jerarquía digital síncrona (SDH)
+-	Ethernet
+
+<p style='text-align: justify;'>Los medios de transmisión físicos utilizados son los cables de cobre y fibra óptica, así como los enlaces inalámbricos. Los cables de fibra óptica son especialmente adecuados para conexiones a larga distancia sobre tierra y agua. Los avances más recientes son las vías de transmisión de datos de banda ancha por satélite, que se pueden establecer con relativa rapidez. En la práctica, se suele utilizar una combinación de varios medios de transmisión distintos. Con los llamados convertidores de medios, se pueden interconectar distintos tipos de cables. En los grandes nodos de Internet hay puntos de intercambio especiales interconectados, donde a menudo hay más de cien redes interconectadas para permitir un intercambio de datos eficiente. Los repetidores se encargan de que los paquetes de datos no pierdan información, incluso a grandes distancias.
+
+# Tipos de Conexión 
+
+Existen varios tipos de red WAN, y tres de ellos se agrupan bajo la clasificación de red conmutada (en física, la conmutación consiste en el cambio del destino de una señal o de una corriente eléctrica):
+
+## Por Circuitos
+Son redes de marcación de (dial-up), como la red de telefonía básica (RTB) y RDSI. Durante el tiempo que dura la llamada, el ancho de banda es dedicado.
+
+## Por Mensaje
+<p style='text-align: justify;'> Sus conmutadores suelen ser ordenadores que cumplen la tarea de aceptar el tráfico de cada terminal que se encuentre conectado a ellas. Dichos equipos evalúan la dirección que se encuentra en la cabecera de los mensajes y pueden almacenarla para utilizarla más adelante. Cabe mencionar que también es posible borrar, redirigir y responder los mensajes en forma automática.
+
+## Por Paquetes
+
+<p style='text-align: justify;'> Se fracciona cada mensaje enviado por los usuarios y se transforman en un número de pequeñas partes denominadas paquetes, que se vuelven a unir una vez llegan al equipo de destino, para reconstruir los datos iniciales. Dichos paquetes se mueven por la red independientemente, y esto repercute positivamente en el tráfico, además de facilitar la corrección de errores, ya que en caso de fallos solo se deberán reenviar las partes afectadas. El ancho de banda es compartido entre todos los usuarios que usan la red.
+
+## Características de las redes WAN
+
+A fin de conocer mejor el funcionamiento de este concepto, os comentamos las principales características de las redes WAN:
+
+-	<p style='text-align: justify;'> Este sistema posee máquinas dedicadas por completo a la ejecución de diferentes programas de usuario, también conocidos como hosts.
+
+-	<p style='text-align: justify;'> Una sub-red a la que se conectan diferentes hosts, nombre que reciben los enrutadores.
+
+-	División entre líneas de transmisión y elementos de conmutación.
+
+-	<p style='text-align: justify;'> Al tratarse de un sistema de interconexión de equipos informáticos dispersos a nivel geográfico, el sistema de conexión que alimenta estas redes suele involucrar generalmente a diferentes redes públicas de transmisión de datos
+
+-	También contienen enlaces satelitales
+
+## Ventajas y desventajas
+
+<p style='text-align: justify;'> La implementación de esta estructura de red, facilita bastante el trabajo entre puntos distante que necesitan tener cierta sincronía; pero a su vez, tiene ciertas desventajas.
 
 
+## Ventajas
+-	Se tiene un canal exclusivo de información independientemente de la posición geográfica.
+-	<p style='text-align: justify;'> Actualmente se tienen varios medios de transmisión, lo que hace posible que estas conexiones de gran escala puedan funcionar de forma óptima. Además de que ya se tiene la tecnología necesaria para que estas redes alcancen una velocidad en el orden de los Gigabits por segundo.
 
+## Desventajas
 
+-	<p style='text-align: justify;'> La seguridad de estas redes no es un punto fuerte, pero para paliar los problemas de seguridad, estos recurren a una VPN.
+-	<p style='text-align: justify;'> Otras dificultades que tiene una red WAN son la viabilidad de la red y establecer nuevas conexiones, ya que implican un alto costo.
+-	<p style='text-align: justify;'> El desempeño de la red suele verse afectada debido a la latencia y las limitaciones del ancho de banda.
+-	<p style='text-align: justify;'> Necesitan de antivirus y firewalls para fortalecer su seguridad, ya que una infección puede comprometer a todos los dispositivos conectados a la red
 
+## Ejemplos 
 
+![Image text](/Imagenes/1Wan.jpg)
 
-
-
-
+-	Internet 
+-	RedIRIS 
+-	IBM 
+-	Una red bancaria nacional
+-	Las redes empresariales trasnacionales:
 
 
 
