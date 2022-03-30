@@ -84,7 +84,44 @@ Está constituido por el cable utilizado para conectar entre sí los nodos de re
 
 <p style='text-align: justify;'>Son las reglas y procedimientos utilizados en una red para establecer la comunicación entre nodos. En los protocolos se definen distintos niveles de comunicación. Así, las redes de área metropolitana soportan el nivel 1 y parte del nivel 2, dando servicio a los protocolos de nivel superior que siguen la jerarquía OSI para sistemas abiertos. </p>
 
+## Red WLAM
 
+![Image text](/Imagenes/Red_WLAM.jpg)
+
+<p style='text-align: justify;'>WLAN significa red de área local inalámbrica. Es una conexión inalámbrica que conecta dos o más dispositivos en LAN. WLAN utiliza puntos de acceso y enrutadores para establecer una conexión entre dispositivos. </p>
+
+<p style='text-align: justify;'>Wi-Fi es un ejemplo de WLAN donde los dispositivos se conectan de forma inalámbrica dentro de un rango limitado.</p>
+
+<p style='text-align: justify;'>Es decir, se realiza dentro del hogar, edificio de oficinas, laboratorio de computación, edificio escolar o cualquier campus universitario. Para usar Wi-Fi, los usuarios deben ingresar una contraseña para conectarse a Internet. La conexión Wi-Fi se realiza mediante puntos de acceso móviles o mediante un módem inalámbrico o un enrutador inalámbrico.</p>
+
+## Significado de (WLAN).
+
+ <p style='text-align: justify;'>Son las siglas de «Wireless Local Area Network», es decir, se refiere a una conexión de red inalámbrica de área local. A diferencia de una conexión LAN, que funciona de manera cableada, una conexión WLAN trabaja sin cables, de forma totalmente inalámbrica. Este tipo de redes utilizan la tecnología Wi-Fi, en sus diferentes estándares, para ofrecer una conexión a Internet sin tener que recurrir al cableado.</p>
+
+## CARACTERISTICAS DE LAS REDES WLAN.
+
+<p style='text-align: justify;'>Entre las características más importante de las redes inalámbricas se pueden mencionar:</p>
+
+- Movilidad. 
+- Facilidad de instalación
+- Flexibilidad
+- Costo de propiedad reducido
+
+## Ventajas y desventajas 
+
+### Ventajas.
+
+- Al ser redes inalámbricas, la comodidad que ofrecen es muy superior a las redes cableados porque cualquiera que tenga acceso a la red puede conectarse desde distintos puntos dentro de un rango suficientemente amplio de espacio.
+
+- La Wi-Fi Alliance asegura que la compatibilidad entre dispositivos con la marca Wi-Fi es total, con lo que en cualquier parte del mundo podremos utilizar la tecnología Wi-Fi.
+
+- Una vez configuradas, las redes Wi-Fi permiten el acceso de múltiples ordenadores sin ningún problema ni gasto en infraestructura, no así en la tecnología por cable.
+
+### Desventajas
+
+- Tiene menor velocidad comparada a la conexión por cable, debido a que es propensa a las interferencias o pérdidas de señal del propio entorno.
+
+- La seguridad es la principal desventaja. Y es que existen algunos programas capaces de capturar paquetes, trabajando con su tarjeta Wi-Fi.
 
 
 
