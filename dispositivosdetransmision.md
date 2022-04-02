@@ -84,7 +84,7 @@ Está constituido por el cable utilizado para conectar entre sí los nodos de re
 
 <p style='text-align: justify;'>Son las reglas y procedimientos utilizados en una red para establecer la comunicación entre nodos. En los protocolos se definen distintos niveles de comunicación. Así, las redes de área metropolitana soportan el nivel 1 y parte del nivel 2, dando servicio a los protocolos de nivel superior que siguen la jerarquía OSI para sistemas abiertos. </p>
 
-## Red WLAM
+## Red WLAN
 
 ![Image text](/Imagenes/Red_WLAM.jpg)
 
